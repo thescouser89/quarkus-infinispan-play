@@ -12,7 +12,7 @@ import java.util.List;
 
 @ApplicationScoped
 public class Infinispan {
-    @Inject @Remote("scatteredCache")
+    @Inject @Remote("distributedCache")
     RemoteCache<String, Author> cache;
 
 
